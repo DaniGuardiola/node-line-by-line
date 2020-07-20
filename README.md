@@ -1,6 +1,6 @@
 # Node line-by-line experiment
 
-This is a small experiment with reading files line-by-line in Node.js (JavaScript), in which I compare the speed and memory footprint of different approaches.
+This is a small experiment with reading files line-by-line in Node.js (JavaScript), in which I compare the speed and memory footprint of different approaches to reading and processing large files line-by-line.
 
 Make sure to read my article about it:
 
