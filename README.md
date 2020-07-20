@@ -49,7 +49,7 @@ The string 'whole file' can be replaced with any other method. Check the files o
 
 ### Options
 
-You can specify the chunk size (for stream-based methods) in kilobytes by passing a seccond argument to any of the commands above. For example:
+You can specify the chunk size (for stream-based methods) in kilobytes by passing a second argument to any of the commands above. For example:
 
 ```bash
 yarn read_stream '12345' 8
