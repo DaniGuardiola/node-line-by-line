@@ -35,6 +35,7 @@ function getChecker (pwd) {
 }
 
 // method #1: loading the whole file 💀
+// ------------------------------------
 
 export async function checkPasswordWholeFile (pwd) {
   const { checkFn, isMatch } = getChecker(pwd)
