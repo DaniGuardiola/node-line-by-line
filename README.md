@@ -6,6 +6,8 @@ Make sure to read my article about it:
 
 - [Reading a file line-by-line in node](https://daniguardiola.me/blog/reading-a-file-line-by-line-in-node)
 
+The most relevant code can be found in the [`password_checkers.js`](password_checkers.js) file.
+
 ## Setup
 
 You will need a recent version of Node.js, and bash if you want to run the `run_all.sh` script.
