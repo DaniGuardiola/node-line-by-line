@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "all": "bash run_all.sh",
+    "whole_file": "node password_checker_whole_file.js",
+    "read_stream": "node password_checker_read_stream.js",
+    "readline": "node password_checker_readline.js",
+    "line-reader": "node password_checker_line_reader.js"
+  },
+  "dependencies": {
+    "@gribnoysup/wunderbar": "^2.2.2",
+    "line-reader": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/line-reader": "^0.0.30"
+  }
+}
