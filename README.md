@@ -31,7 +31,7 @@ yarn all 'password'
 # with npm
 npm run all 'password'
 # directly with bash
-./run_all.sh
+./run_all.sh 'password'
 ```
 
 ### Run a specific test
@@ -49,7 +49,7 @@ The string 'whole file' can be replaced with any other method. Check the files o
 
 ### Options
 
-You can specify the chunk size (for stream-based methods) in kilobytes by passing a second argument to any of the commands above. For example:
+You can specify the chunk size (for stream-based methods) in kilobytes by passing a second argument to any of the commands above. The default is 64kb. For example:
 
 ```bash
 yarn read_stream '12345' 8
